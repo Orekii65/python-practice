@@ -1,0 +1,11 @@
+scores = [78, 92, 65, 88, 100]
+print(len(scores))
+print(sum(scores))
+print(max(scores))
+print(min(scores))
+average=sum(scores)/len(scores)
+print(f'平均分：{average:.1f}')
+scores.append(95)
+print(scores)
+average=sum(scores)/len(scores)
+print(f'添加后平均分：{average:.1f}')

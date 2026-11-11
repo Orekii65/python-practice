@@ -1,0 +1,7 @@
+name=input('请输入姓名：')
+age=input('请输入年龄：')
+point=input('请输入python成绩：')
+print(f'姓名：{name}')
+print(f'年龄：{age}')
+print(f'成绩：{point}')
+print(f'明年年龄：{int(age)+1}')
