@@ -4,9 +4,9 @@ students = [
     {"name": "王五", "score": 78}
 ]
 sum=0
-for i in range(3):
-    print(students[i]['name']+':'+str(students[i]['score']))
-    sum+=students[i]['score']
+for student in students:
+    print(student["name"], student["score"])
+    sum+=student['score']
 average=sum/len(students)
 print(f'平均分：{average:.1f}')
 highest=students[0]
